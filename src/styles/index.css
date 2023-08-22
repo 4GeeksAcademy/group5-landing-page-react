@@ -10,6 +10,34 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-.nav-item{
-    color:lightsalmon;
+/* Navbar */
+.nav-link{
+    color:white;
+}
+
+/* Cards */
+.container{
+    display:flex;
+    flex-flow:center;
+
+}
+.card{
+    width:18rem;
+    text-align: center;
+    margin:0 auto;
+    float:none;
+    margin-bottom:10px;
+}
+.card-img-top{
+    width:100%;
+}
+
+/* Jumbotron */
+button{
+
+}
+
+/* Footer */ 
+#footertext{
+    color:white;
 }

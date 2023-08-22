@@ -3,46 +3,27 @@ import React from "react";
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-default bg-dark" role="navigation">
-        <div className="container m-1">
-          <button
-            type="button"
-            className="navbar-toggle"
-            data-toggle="collapse"
-            data-target=".navbar-collapse"
-          ></button>
+      <nav className="navbar navbar-expand-md bg-dark" id="navbar">
+        <div className="container">
           <a className="navbar-brand text-white" href="#">
             Welcome Page
           </a>
-        </div>
-        <div></div>
-        <div className="collapse navbar-collapse navbar-right" id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <a
-                className="nav-link text-white active"
-                aria-current="page"
-                href="#"
-              >
+          <div className="collapse navbar-collapse">
+            <div className="navbar-nav ms-auto">
+              <a className="nav-link" href="#">
                 Home
               </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link text-white" aria-current="page" href="#">
+              <a className="nav-link" href="#">
                 About
               </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link text-white" aria-current="page" href="#">
+              <a className="nav-link" href="#">
                 Services
               </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link text-white" aria-current="page" href="#">
-                Contact
+              <a className="nav-link" href="#">
+                Contacts
               </a>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
       </nav>
     </>
